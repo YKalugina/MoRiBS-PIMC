@@ -1,7 +1,0 @@
-!/bin/sh
-#PBS -j oe
-#PBS -m ae
-
-cd ${PBS_O_WORKDIR}
-
-./test.exe
